@@ -13,6 +13,11 @@
   <body>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+
+    <h1>pages links</h1>
+    <%= link_to "Home", root_path %>
+    <%= link_to "admin page", home_admin_path %>
+    <%= link_to "user page", home_user_path %>
     <%= yield %>
   </body>
 </html>
